@@ -1,0 +1,32 @@
+/** @format */
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.row_item {
+  width: 70px;
+  padding: 10px;
+  outline: 1px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.row_item:active {
+  background-color: #111;
+  color: #fff;
+}
+.expandEqualto:last-child {
+  position: relative;
+  top: 40px;
+  transform: scaleY(2.6);
+
+  text-align: center;
+}
+.clearBorder:last-child {
+  border: none;
+}
